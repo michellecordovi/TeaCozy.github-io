@@ -1,0 +1,133 @@
+/* UNIVERSAL PROPERTIES */
+* {
+      margin: opx;
+      padding: 0px;
+      font-family: Helvetica, arial, sans-serif;
+      color: seashell;
+      text-align: center;
+}
+
+body {
+      background-color: black;
+}
+
+h2 {
+      font-size: 32px;
+}
+
+h3 {
+      font-size: 27px;
+}
+
+h4 {
+      font-size: 22px;
+}
+
+h5 {
+      font-size: 20px;
+}
+
+p {
+      font-size: 20px;
+}
+
+/* NAVIGATION BAR */
+header {
+      position:sticky;
+      top: 0;
+      background-color: black;
+}
+
+.navbar {
+      height: 69px;
+      border-bottom: 1px solid seashell;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 22px; 
+}
+
+#logo {
+      padding-left: 10px;
+      height: 50px;
+}
+ #navlinks li {
+      display: inline;
+      padding: 10px;
+      text-decoration: underline;
+ }
+
+ /* BANNER */
+.banner {
+      width: 1200px;
+      height: 700px;
+      margin: 0px auto;
+      background-image: url(./images/teacozybackground.jpg);
+      display: flex;
+      align-items: center;
+}
+
+#mission {
+      opacity: 1;
+      width: 100%;
+      height: fit-content;
+      background-color: black;
+}
+
+/* FEATURED TEAS */
+#featured-tea {
+      width: 1000px;
+      height:fit-content;
+      margin: 60px auto;
+      line-height: 10px;
+}
+
+.teas {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-content: center;
+}
+
+.teas img {
+      height: 200px;
+      width: 300px;
+      margin: 10px;
+}
+
+/* LOCATIONS */
+
+#locations {
+      width: 1200px;
+      height: 500px;
+      margin: 0px auto;
+      background-image: url(./images/locations-background.jpg);
+      background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+#address-container {
+      display: flex;
+      justify-content: space-around;
+}
+
+#address1,
+#address2,
+ #address3 {
+      width: 300px;
+      height: fit-content;
+      background-color: black;
+      margin: 15px 40px;
+}
+
+
+/* FOOTER */
+.contact {
+      margin: 10px auto;
+}
+
+.copyright {
+      text-align: left;
+}
